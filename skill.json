@@ -1,0 +1,35 @@
+{
+  "name": "genpark-agentic-commerce-supply-chain-bullwhip-order-variance-dampener-skill",
+  "version": "1.0.0",
+  "description": "Multi-echelon supply chain Bullwhip Effect amplifier dampener, demand distortion index & smoothing filter.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "dampen_supply_chain_bullwhip",
+      "description": "Multi-echelon supply chain Bullwhip Effect amplifier dampener, demand distortion index & smoothing filter.",
+      "sample_input": {
+        "consumer_demands": [
+          100,
+          110,
+          95,
+          105,
+          115,
+          98
+        ],
+        "upstream_orders": [
+          80,
+          140,
+          70,
+          150,
+          160,
+          65
+        ],
+        "smoothing_alpha": 0.3
+      }
+    }
+  ]
+}
